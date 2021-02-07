@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Una fiesta particular</title>
+  <style>
+    body {
+      margin: 0;  
+    }
+    .container {
+      background-image: url('images/bk1.gif');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      /* background: black; */
+    }
+    .container-hero {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(1, 200px);
+      grid-template-rows: repeat(1, 200px);
+      grid-template-areas: "dancer1 dancer2"
+                          "dancer1 dancer2";
+      justify-content: center;
+      align-content: center;
+      /* grid-gap: 200px; */
+    }
+    img {
+      margin: 0;
+    }
+
+  div .hero-dancer1{
+    grid-area: dancer1;
+    /* border: 1px solid red; */
+  }
+  div .hero-dancer2 {
+    grid-area: dancer2;
+    /* border: 1px solid white; */
+  }
+    
+  </style>
 </head>
 <body>
-  <span>test</span>
+  <div class="container">
+    <div class="container-hero">
+      <img class="hero-dancer1" src="images/dancing1.gif" alt="">
+      <!-- <img src="images/dancing2.gif" alt=""> -->
+      <img class="hero-dancer2" src="images/dancing3.gif" alt="">
+    </div>
+  </div>
 </body>
 </html>
