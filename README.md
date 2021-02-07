@@ -1,2 +1,2 @@
 # gifs-party
-Una fiesta particular
+Una fiesta particularmente divertida!
