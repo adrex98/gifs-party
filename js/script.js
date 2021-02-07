@@ -1,7 +1,7 @@
 var a=1;
 var b=2;
 
-var nombre="Adrian";
-var apellido="Montesinos";
+var nombre="Gifs Party";
+// var apellido="";
 
-alert(nombre+" "+apellido)
+alert(nombre)
